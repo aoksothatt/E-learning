@@ -595,6 +595,7 @@ body {
   & p {
     margin-top: 1rem;
     font-size: 12px;
+    color: gray;
   }
   & p > span {
     color: var(--navbar-color);
@@ -605,6 +606,10 @@ body {
   gap: 2rem;
   & li {
     list-style-type: none;
+  }
+  & a:hover {
+    color: var(--filter-text);
+    transition: all 0.3s;
   }
   & a {
     text-decoration: none;
@@ -620,7 +625,6 @@ body {
   & a {
     color: var(--logo-color);
     padding: 1.1rem;
-
     border-radius: 50%;
   }
 }
